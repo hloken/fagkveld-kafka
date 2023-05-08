@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pinger", "Pinger\Pinger.csproj", "{A66D335A-C334-4797-9D25-64A74F58E6C9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ponger", "Ponger\Ponger.csproj", "{063CCB9A-1F39-4083-A091-437DC72807B5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Contracts", "Contracts\Contracts.csproj", "{FED8A01E-81FA-4C7F-BB78-AE08C81BBC77}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A66D335A-C334-4797-9D25-64A74F58E6C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A66D335A-C334-4797-9D25-64A74F58E6C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A66D335A-C334-4797-9D25-64A74F58E6C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A66D335A-C334-4797-9D25-64A74F58E6C9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{063CCB9A-1F39-4083-A091-437DC72807B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{063CCB9A-1F39-4083-A091-437DC72807B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{063CCB9A-1F39-4083-A091-437DC72807B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{063CCB9A-1F39-4083-A091-437DC72807B5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FED8A01E-81FA-4C7F-BB78-AE08C81BBC77}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FED8A01E-81FA-4C7F-BB78-AE08C81BBC77}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FED8A01E-81FA-4C7F-BB78-AE08C81BBC77}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FED8A01E-81FA-4C7F-BB78-AE08C81BBC77}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
