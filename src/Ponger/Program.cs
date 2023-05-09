@@ -10,6 +10,7 @@ using Newtonsoft.Json;
 var bootstrapServers = "localhost:9092";
 const string topicName = "demo-topic";
 var schemaRegistryUrl = "http://localhost:8085";
+var consumerGroupId = "ponger-group";
 
 var producerConfig = new ProducerConfig
 {
@@ -28,7 +29,7 @@ var schemaRegistryConfig = new SchemaRegistryConfig
 var consumerConfig = new ConsumerConfig
 {
     BootstrapServers = bootstrapServers,
-    GroupId = "ponger-group"
+    GroupId = consumerGroupId
 };
 
 // Note: Specifying json serializer configuration is optional.
@@ -79,7 +80,7 @@ using (var producer =
     Console.WriteLine($"{producer.Name} producing on {topicName}. Press a key so send a Pong event, q to quit");
 
     long i = 1;
-    while (Console.ReadKey().Key != System.ConsoleKey.Q)
+    while (Console.ReadKey().Key != ConsoleKey.Q)
     {
         var @event = new Pong ( Text: "Pong!", SequenceNumber: i++);
         try 
