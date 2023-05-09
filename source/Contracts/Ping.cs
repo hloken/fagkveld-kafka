@@ -1,3 +1,3 @@
 ﻿namespace Contracts;
 
-public record Ping(string Text);
+public record Ping(string Text, long SequenceNumber);
