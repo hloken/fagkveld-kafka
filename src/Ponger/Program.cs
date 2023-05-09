@@ -1,10 +1,8 @@
-﻿// See https://aka.ms/new-console-template for more information
-using Confluent.Kafka;
+﻿using Confluent.Kafka;
 using Confluent.Kafka.SyncOverAsync;
 using Confluent.SchemaRegistry;
 using Confluent.SchemaRegistry.Serdes;
 using Contracts;
-using Newtonsoft.Json;
 
 
 var bootstrapServers = "localhost:9092";
