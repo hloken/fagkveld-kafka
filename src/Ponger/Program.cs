@@ -55,7 +55,7 @@ var consumeTask = Task.Run(() =>
             {
                 var cr = consumer.Consume(cts.Token);
                 var ping = cr.Message.Value;
-                Console.WriteLine($"Ping text: {ping.Text}");
+                Console.WriteLine($"Ping text: {ping.Text} SequenceNumber: {ping.SequenceNumber}");
             }
             catch (ConsumeException e)
             {
